@@ -7,7 +7,14 @@ class PlantData {
     static Plant plant3 = new VasteBloeiendeSierGras("test3", 110, false, true, false, "nvt", true, "red", new ArrayList<>(Arrays.asList("june", "july", "august")));
     static Plant plant4 = new VasteBloeiendeSierGras("test4", 70, false, true, false, "purple", true, "green", new ArrayList<>(Arrays.asList("june", "july")));
     static Plant plant5 = new VasteBloeiendeSierGras("test5", 70, false, false, true, "blue", true, "green", new ArrayList<>(Arrays.asList("june", "july", "august")));
-    static final ArrayList<Plant> plantenlijst = new ArrayList<>(Arrays.asList(plant1, plant2, plant3, plant4, plant5));
+    static Plant plant6 = new VasteBloemPlant("Afrikaanse lelie", 50, false, false, true, "blue", false, "green", new ArrayList<>(Arrays.asList("july", "august", "september")));
+    static Plant plant7 = new VasteBloemPlant("Bieslook", 30, false, false, true, "purple", false, "green", new ArrayList<>(Arrays.asList("june", "july")));
+    static Plant plant8 = new VasteBloemPlant("Daslook", 20, true, false, false, "white", false, "green", new ArrayList<>(Arrays.asList("april", "may")));
+    static Plant plant9 = new VasteBloemPlant("rodeCamelia", 180, true, false, false, "red", true, "green", new ArrayList<>(Arrays.asList("february", "march", "april")));
+    static Plant plant10 = new VasteBloemPlant("pinkCamelia", 180, true, false, false, "pink", true, "green", new ArrayList<>(Arrays.asList("february", "march", "april")));
+    static Plant plant11 = new VasteBloemPlant("Boterbloem", 35, false, false, true, "yellow", true, "green", new ArrayList<>(Arrays.asList("may","june")));
+
+    static final ArrayList<Plant> plantenlijst = new ArrayList<>(Arrays.asList(plant1, plant2, plant3, plant4, plant5,plant6,plant7,plant8,plant9,plant10,plant11));
 }
 interface Plant {
     String getTypePlant();
